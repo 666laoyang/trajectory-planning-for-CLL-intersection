@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+   <vType id="CarA" length="5" maxSpeed="16" accel="5" decel="5" emergencyDecel="5"  minGap="1"  tau="2"
+   delta="4"/>
+   
+    <flow id="car" color="1,1,0"  begin="0" end ="120" probability="0.166666666666666666666666666" type="CarA" departLane="0" departSpeed="random" departPos="base" >
+     <route edges="E3 E4 E5 E6"/>
+    </flow>
+
+
+</routes>
